@@ -1,34 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ede7e77c-6e62-4ec1-ae12-e0454bb6066d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/my_cool_site.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_cool_site/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_cool_site/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_cool_site/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_cool_site/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_cool_site/wsgi.py" afterDir="false" />
+    <list default="true" id="ede7e77c-6e62-4ec1-ae12-e0454bb6066d" name="Changes" comment="Initial commit.">
+      <change afterPath="$PROJECT_DIR$/my_blog/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_blog/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_blog/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_blog/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_blog/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_blog/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_blog/static/css/my_blog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_blog/templates/my_blog/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_blog/templates/my_blog/post/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_blog/templates/my_blog/post/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_blog/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_blog/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_cool_site/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_cool_site/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_cool_site/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_cool_site/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2b5uyAiWr4w7KEhMWLlJID8Vktj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -41,20 +56,33 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Django Server.my_cool_site.executor": "Run",
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "django.template.preview.state": "SHOW_EDITOR_AND_PREVIEW",
+    "git-widget-placeholder": "develop",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/jared/PycharmProjects/my_cool_site",
+    "last_opened_file_path": "C:/Users/jared/PycharmProjects/my_cool_site/my_blog",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jared\PycharmProjects\my_cool_site\my_blog" />
+      <recent name="C:\Users\jared\PycharmProjects\my_cool_site" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jared\PycharmProjects\my_cool_site\my_blog" />
+      <recent name="C:\Users\jared\PycharmProjects\my_cool_site" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="my_cool_site" type="Python.DjangoServer" factoryName="Django server">
       <module name="my_cool_site" />
@@ -63,6 +91,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="my_cool_site.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -96,8 +125,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705517512985</updated>
-      <workItem from="1705517533253" duration="331000" />
+      <workItem from="1705517533253" duration="2629000" />
+      <workItem from="1705520889857" duration="6073000" />
+      <workItem from="1705599710191" duration="1631000" />
+      <workItem from="1705602117300" duration="411000" />
+      <workItem from="1705692643465" duration="2187000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit.">
+      <option name="closed" value="true" />
+      <created>1705517879299</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705517879299</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,5 +147,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Initial commit." />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit." />
   </component>
 </project>
