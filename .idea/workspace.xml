@@ -4,18 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ede7e77c-6e62-4ec1-ae12-e0454bb6066d" name="Changes" comment="Making progress with Chapter 2.">
-      <change afterPath="$PROJECT_DIR$/my_blog/migrations/0003_comment.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_blog/templates/my_blog/post/comment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_blog/templates/my_blog/post/includes/comment_form.html" afterDir="false" />
+    <list default="true" id="ede7e77c-6e62-4ec1-ae12-e0454bb6066d" name="Changes" comment="Finished Chapter 2.">
+      <change afterPath="$PROJECT_DIR$/my_blog/migrations/0004_post_tags.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_blog/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_blog/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_blog/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_blog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_blog/templates/my_blog/post/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/my_blog/templates/my_blog/post/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_blog/templates/my_blog/post/share.html" beforeDir="false" afterPath="$PROJECT_DIR$/my_blog/templates/my_blog/post/share.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_blog/templates/my_blog/post/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/my_blog/templates/my_blog/post/list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_blog/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_cool_site/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_cool_site/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +121,7 @@
       <workItem from="1705599710191" duration="1631000" />
       <workItem from="1705602117300" duration="411000" />
       <workItem from="1705692643465" duration="10653000" />
-      <workItem from="1705772484182" duration="2063000" />
+      <workItem from="1705772484182" duration="4703000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <option name="closed" value="true" />
@@ -151,7 +147,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705703679002</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Finished Chapter 2.">
+      <option name="closed" value="true" />
+      <created>1705775746185</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705775746185</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +166,7 @@
     <MESSAGE value="Initial commit." />
     <MESSAGE value="Completed Chapter 1!" />
     <MESSAGE value="Making progress with Chapter 2." />
-    <option name="LAST_COMMIT_MESSAGE" value="Making progress with Chapter 2." />
+    <MESSAGE value="Finished Chapter 2." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Chapter 2." />
   </component>
 </project>
